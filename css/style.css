@@ -482,10 +482,13 @@ header .circle {
   left: 0;
   background-color: var(--main-color);
   transition: 0.3s;
+  transition-duration: 100s;
 }
 
 .card-wrap:hover .card {
   transform: translateY(-15px);
+  transform: rotate(360deg);
+  border-radius: 40px;
 }
 
 .card-wrap:hover .card:after {
